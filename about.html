@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Project 2</title>
+
+    <!-- my css's link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- my bootstrap link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/bootstrap.bundle.js"></script>
+
+    <!-- my hover effects link -->
+    <link rel="stylesheet" href="assets/Hover-master/css/hover-min.css">
+
+    <!-- my font awsome link -->
+    <link rel="stylesheet" href="assets/icons/css/all.min.css">
+
+    <!-- my jquery link -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+        integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="assets/js/my JQuery.js"></script>
+
+    <!-- my google fonts link link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- my material icons link -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- my aos library link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+
+    <!-- i have created 3 navbars in this site.
+    navi-1 code start -->
+
+
+    <!-- navi-1-code-start -->
+
+    <div class="container-fluid courses-header">
+        <div class="container">
+
+
+            <div class="row" id="courses-invisible">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                    <img src="assets/img/logo-dark.svg" height="50px" width="100%">
+                </div>
+
+
+                <div class="col-lg-5 col-md-7 col-sm-7 col-7 pt-2">
+
+                    <div class="row navi">
+
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-3" id="navi-catogaries">
+
+                            <nav class="nav-bar">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a href="" class="nav-link" data-bs-toggle="dropdown" id="navi-catogaries-text">
+                                            all catogories
+                                            <i class="fa-solid fa-angle-down"></i>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="#navi-catogaries-text"
+                                            id="navi-1-drop">
+                                            <a href="" class="dropdown-item">
+                                                <span class="navi-catogories-drop-text">all</span>
+                                            </a>
+
+                                            <a href="" class="dropdown-item">
+                                                <span class="navi-catogories-drop-text">art and design</span>
+                                            </a>
+
+                                            <a href="" class="dropdown-item">
+                                                <span class="navi-catogories-drop-text">business</span>
+                                            </a>
+
+                                            <a href="" class="dropdown-item">
+                                                <span class="navi-catogories-drop-text">data sceince</span>
+                                            </a>
+
+                                            <a href="" class="dropdown-item">
+                                                <span class="navi-catogories-drop-text">development</span>
+                                            </a>
+
+                                            <a href="" class="dropdown-item">
+                                                <span class="navi-catogories-drop-text">finance</span>
+                                            </a>
+
+                                            <a href="" class="dropdown-item">
+                                                <span class="navi-catogories-drop-text">health and fitness</span>
+                                            </a>
+
+                                            <a href="" class="dropdown-item">
+                                                <span class="navi-catogories-drop-text">technology</span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-5 pt-2">
+                            <input type="text" class="courses-navi-1-search-bar mt-2"
+                                placeholder="Find Your Catogories">
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-4 pt-2">
+                            <button type="button" id="courses-navi-btn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                search
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <span class="fa-solid fa-phone call-icon"></span>
+                    <span class="navi-3-text-2">Emergency Help!</span>
+                    <span class="navi-3-text-3">+1212-226-3126</span>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-3 col-3 pt-3 text-center">
+                    <button class="navi-login-btn">login</button>
+                    <button class="navi-sign-btn">sign up</button>
+                </div>
+
+            </div>
+
+
+
+            <!--navi-1 code end -->
+
+
+
+            <!--navi-2 code start -->
+
+
+
+
+            <div class="row pb-5 pt-5 text-center" id="navi-2">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-12 col-12 pt-3">
+                            <i class="fa-solid fa-calendar-days navi-2-icon"></i>
+                            <span class="navi-2-text">5 February, 2024</span>
+
+                            <i class="fa-solid fa-location-dot navi-2-icon"></i>
+                            <span class="navi-2-text">457 Mott Street,NY 10013</span>
+
+                            <i class="fa-solid fa-clock navi-2-icon"></i>
+                            <span class="navi-2-text">Opening: Mon - Sat 8.00 - 18.00</span>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                            <button class="navi-2-sign-btn">login</button>
+                            <button class="navi-2-sign-btn-2">sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!--navi-2 code end -->
+
+        </div>
+    </div>
+
+
+
+
+
+    <!--navi-3 code start -->
+
+    <div class="container-fluid" id="courses-navi-2">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-2 col-md-3 col-sm-3 col-2" id="courses-navi-2-img-sec">
+                    <img src="assets/img/logo-dark.svg" class="w-100">
+                </div>
+
+                <div class="col-lg-10 col-md-9 col-sm-9 col-10">
+                    <div class="row">
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-11" id="navi-3-nav-sec">
+                            <nav class="navbar navbar-expand-lg">
+
+                                <button class="navbar-toggler ms-auto" data-bs-toggle="collapse"
+                                    data-bs-target="#my-navi">
+                                    <i class="navbar-toggler-icon"></i>
+                                </button>
+
+                                <div id="my-navi" class="collapse navbar-collapse">
+                                    <ul class="navbar-nav">
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-11 col-sm-11 col-11">
+                                                <li class="nav-item dropdown">
+                                                    <a href="index.html" class="nav-link">
+                                                        <span class="navi-3-text hvr-underline-from-left">home</span>
+                                                    </a>
+                                                </li>
+                                            </div>
+                                            <div class="col-1"></div>
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="col-xl-7 col-lg-7 col-md-11 col-sm-11 col-11">
+                                                <li class="nav-item dropdown">
+                                                    <a href="courses.html" class="nav-link">
+                                                        <span class="navi-3-text hvr-underline-from-left">courses</span>
+                                                    </a>
+
+                                                    <div class="dropdown-menu course-drop" id="navi-3-course-drop">
+
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <a class="dropdown-item course-drop-heading">courses
+                                                                            layout</a>
+                                                                        <a href="" class="dropdown-item">course
+                                                                            default</a>
+                                                                        <a href="" class="dropdown-item">course style
+                                                                            02</a>
+                                                                        <a href="" class="dropdown-item">course style
+                                                                            03</a>
+                                                                        <a href="" class="dropdown-item">course style
+                                                                            04</a>
+                                                                        <a href="" class="dropdown-item">course details
+                                                                            01</a>
+                                                                        <a href="" class="dropdown-item">course details
+                                                                            02</a>
+                                                                        <a href="" class="dropdown-item">lesson with
+                                                                            video</a>
+                                                                    </div>
+
+                                                                    <div class="col-lg-6">
+                                                                        <a class="dropdown-item course-drop-heading">course
+                                                                            catogary</a>
+                                                                        <a href="" class="dropdown-item">business</a>
+                                                                        <a href="" class="dropdown-item">technology</a>
+                                                                        <a href="" class="dropdown-item">development</a>
+                                                                        <a href="" class="dropdown-item">finance</a>
+                                                                        <a href="" class="dropdown-item">health and
+                                                                            fitness</a>
+                                                                        <a href="" class="dropdown-item">data
+                                                                            science</a>
+                                                                        <a href="" class="dropdown-item">art and
+                                                                            design</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </div>
+
+                                            <div class="col-1">
+                                                <button class="navi-3-btn-2">
+                                                    <i class="fa-solid fa-angle-down navi-3-icon-2"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-11 col-sm-11 col-11">
+                                                <li class="nav-item dropdown">
+                                                    <a href="blog.html" class="nav-link">
+                                                        <span class="navi-3-text hvr-underline-from-left">blog</span>
+                                                    </a>
+                                                    <div class="dropdown-menu" id="navi-3-blog-drop">
+                                                        <a href="" class="dropdown-item">
+                                                            <span class="navi-3-drop-text">blog grid</span>
+                                                        </a>
+                                                        <a href="" class="dropdown-item">
+                                                            <span class="navi-3-drop-text">blog list</span>
+                                                        </a>
+                                                        <a href="" class="dropdown-item">
+                                                            <span class="navi-3-drop-text">post standard</span>
+                                                        </a>
+                                                        <a href="" class="dropdown-item">
+                                                            <span class="navi-3-drop-text">post gallery</span>
+                                                        </a>
+                                                        <a href="" class="dropdown-item">
+                                                            <span class="navi-3-drop-text">post video</span>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                            </div>
+
+                                            <div class="col-1">
+                                                <button class="navi-3-btn-6">
+                                                    <i class="fa-solid fa-angle-down navi-3-icon-2"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <li class="nav-item">
+                                            <a href="about.html" class="nav-link">
+                                                <span class="navi-3-text hvr-underline-from-left me-4">about</span>
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="contact.html" class="nav-link">
+                                                <span class="navi-3-text hvr-underline-from-left">contact</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-1" id="navi-3-mag-ion-sec">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-2 courses-emergency-sec text-end">
+                    <span class="fa-regular fa-heart call-icon"></span>
+                    <span class="fa-solid fa-lock lock-icon"></span>
+                    <span class="navi-3-text-2">$0.00</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--navi-3 code end -->
+
+
+    <div class="container-fluid courses-header-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-5 col-sm-6 col-6">
+                    <div class="col-lg-12">
+                        <a href="index.html" class="courses-header-2-page-name">home <strong>.</strong></a>
+                        <a href="about.html" class="courses-header-2-page-name-2">about</a>
+                    </div>
+
+                    <div class="col-lg-12 mt-5">
+                        <p class="courses-header-2-heading">about</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-3 col-sm-3 col-5"></div>
+
+                <div class="col-lg-3 col-md-4 col-sm-3 col-3">
+                    <img src="assets/img/banner-shape.png" class="w-100 courses-header-2-pic" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- and now all containers have started -->
+
+
+
+    <!-- about container-1 start -->
+
+    <div class="container-fluid ab-ctnr-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 ab-ctnr-1-pic-sec">
+                    <div class="ab-ctnr-1-pic"></div>
+                    <div class="ab-ctnr-1-pic-2"></div>
+                    <div class="ab-ctnr-1-pic-3"></div>
+                </div>
+                <div class="col-lg-6 ab-ctnr-1-text-sec">
+                    <div class="col-12 ab-ctnr-1-text-sec-inner">
+                        <div class="col-12">
+                            <p class="ab-ctnr-text">About Us</p>
+                        </div>
+
+                        <div class="col-12 ab-ctnr-1-underline-sec">
+                            <p class="ab-ctnr-text-2">Build A Culture Of Collaboration Through Peer Learning</p>
+                            <img src="assets/img/underline.svg" alt="">
+                        </div>
+
+                        <div class="col-12 mt-5">
+                            <p class="ab-ctnr-text">When An Unknown Printer Took A Galley Offer Area Type And Scrambled
+                                To Make A Type Specimen Book Has Survived When An Unknown Printer Took A Galley Offer
+                                Area Type And Scrambled To Make.</p>
+                        </div>
+
+                        <div class="col-12 mt-4">
+                            <p class="ab-ctnr-text">When An Unknown Printer Took A Galley Offer Area Type And Scrambled
+                                To Make A Type Specimen Book Has Survived When An Unknown Printer Took A Galley Offer
+                                Area Type And Scrambled To Make.</p>
+                        </div>
+
+                        <div class="col-12 ab-ctnr-1-icon-sec">
+                            <div class="col-xl-12 col-lg-12 col-md-5 col-sm-5 col-7 mt-5">
+                                <i class="fa-solid fa-check ab-ctnr-1-icon"></i>
+                                <span class="ab-ctnr-text-3">Become a UX designer.</span>
+                            </div>
+
+                            <div class="col-xl-12 col-lg-12 col-md-5 col-sm-5 col-7 mt-3">
+                                <i class="fa-solid fa-check ab-ctnr-1-icon"></i>
+                                <span class="ab-ctnr-text-3"> You will be able to add UX designe.</span>
+                            </div>
+
+                            <div class="col-xl-12 col-lg-12 col-md-5 col-sm-5 col-7 mt-3">
+                                <i class="fa-solid fa-check ab-ctnr-1-icon"></i>
+                                <span class="ab-ctnr-text-3">Become a UI designer.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about container-1 end -->
+
+
+    <!-- about container 2 start -->
+
+    <div class="container-fluid ab-ctnr-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 ab-ctnr-2-hdg-sec mt-5">
+                    <p class="ab-ctnr-2-text">Join In On Something Big</p>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 mt-5">
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-end align-items-center">
+                            <i class="fa-solid fa-user-graduate ab-ctnr-2-icon"></i>
+                        </div>
+                        <div class="col-6">
+                            <span class="ab-ctnr-2-text-2"><span>50</span>m</span> <br>
+                            <span class="ab-ctnr-2-text-3">good learners</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 mt-5">
+                    <div class="row">
+                        <div
+                            class="col-xl-6 col-lg-6 col-md-3 col-sm-6 col-6  d-flex justify-content-end align-items-center">
+                            <i class="fa-solid fa-laptop-code ab-ctnr-2-icon"></i>
+                        </div>
+                        <div class="col-6">
+                            <span class="ab-ctnr-2-text-2"><span>120</span>k</span> <br>
+                            <span class="ab-ctnr-2-text-3">top courses</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 mt-5">
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-end align-items-center">
+                            <i class="fa-solid fa-award ab-ctnr-2-icon"></i>
+                        </div>
+                        <div class="col-6">
+                            <span class="ab-ctnr-2-text-2"><span>34</span>k</span> <br>
+                            <span class="ab-ctnr-2-text-3">best award</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- about container 2 end -->
+
+
+
+
+    <!-- about container 3 start -->
+
+    <div class="container-fluid ab-ctnr-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="ctnr-3-text text-center">CORE FEATURES</p>
+                    <p class="ctnr-3-expr-text">Why You Should Choose Quiklearn</p>
+                    <span id="ctnr-4-underline">
+                        <img src="assets/img/underline.svg" alt="">
+                    </span>
+                    <p class="ctnr-3-text text-center">When An Unknown Printer Took A Galley Of Type And Scrambled It To
+                        Make A Type Specimen <br>
+                        Book It Has Survived Not Only Five Centuries</p>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12" data-aos="fade-down" data-aos-duration="1500"
+                    data-aos-delay="500">
+                    <div class="col-12 ab-ctnr-3-mb text-center">
+                        <div class="ab-ctnr-3-icon-sec">
+                            <i class="fa-solid fa-user-graduate ab-ctnr-3-icon"></i>
+                            <i class="fa-solid fa-user-graduate ab-ctnr-3-icon-2"></i>
+                        </div>
+
+                        <div class="col-12 mt-5">
+                            <p class="ab-ctnr-3-text">Expert-Led Video Courses</p>
+                        </div>
+
+                        <div class="col-12">
+                            <p class="ab-ctnr-3-text-2">When An Unknown Printer Took A Galley Offer Area Type And
+                                Scrambled To Make</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12" data-aos="fade-down" data-aos-duration="1500"
+                    data-aos-delay="1000">
+                    <div class="col-12 ab-ctnr-3-mb text-center">
+                        <div class="ab-ctnr-3-icon-sec" style="background: linear-gradient(to left,#F78278,#f7c1bc);">
+                            <i class="fa-solid fa-laptop-code ab-ctnr-3-icon"></i>
+                            <i class="fa-solid fa-laptop-code ab-ctnr-3-icon-2"></i>
+                        </div>
+
+                        <div class="col-12 mt-5">
+                            <p class="ab-ctnr-3-text">Expert-Led Video Courses</p>
+                        </div>
+
+                        <div class="col-12">
+                            <p class="ab-ctnr-3-text-2">When An Unknown Printer Took A Galley Offer Area Type And
+                                Scrambled To Make</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12" data-aos="fade-down" data-aos-duration="1500"
+                    data-aos-delay="1500">
+                    <div class="col-12 ab-ctnr-3-mb text-center">
+                        <div class="ab-ctnr-3-icon-sec" style="background: linear-gradient(to left,#63D4CF,#c4faf7);">
+                            <i class="fa-solid fa-trophy ab-ctnr-3-icon"></i>
+                            <i class="fa-solid fa-trophy ab-ctnr-3-icon-2"></i>
+                        </div>
+
+                        <div class="col-12 mt-5">
+                            <p class="ab-ctnr-3-text">Expert-Led Video Courses</p>
+                        </div>
+
+                        <div class="col-12">
+                            <p class="ab-ctnr-3-text-2">When An Unknown Printer Took A Galley Offer Area Type And
+                                Scrambled To Make</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12" data-aos="fade-down" data-aos-duration="1500"
+                    data-aos-delay="2000">
+                    <div class="col-12 ab-ctnr-3-mb text-center">
+                        <div class="ab-ctnr-3-icon-sec" style="background: linear-gradient(to left,#F694DB,#f8c8ea);">
+                            <i class="fa-solid fa-table-cells-large ab-ctnr-3-icon"></i>
+                            <i class="fa-solid fa-table-cells-large ab-ctnr-3-icon-2"></i>
+                        </div>
+
+                        <div class="col-12 mt-5">
+                            <p class="ab-ctnr-3-text">Expert-Led Video Courses</p>
+                        </div>
+
+                        <div class="col-12">
+                            <p class="ab-ctnr-3-text-2">When An Unknown Printer Took A Galley Offer Area Type And
+                                Scrambled To Make</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about container 3 end -->
+
+
+
+
+
+    <!--about container-4 code start -->
+
+
+
+
+    <div class="container-fluid ctnr-8">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="ctnr-3-text text-center">OUR INSTRUCTORS</p>
+                    <p class="ctnr-3-expr-text">find the quick learn community</p>
+                    <span id="ctnr-4-underline">
+                        <img src="assets/img/underline.svg" alt="">
+                    </span>
+                    <p class="ctnr-3-text text-center">When An Unknown Printer Took A Galley Of Type And Scrambled It To
+                        Make A Type Specimen <br>
+                        Book It Has Survived Not Only Five Centuries</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="fade-up-right" data-aos-duration="1500"
+                    data-aos-delay="500">
+                    <div class="col-lg-12 ctnr-8-mainbox">
+                        <div class="row">
+                            <div class="col-lg-12 ctnr-8-mainbox-inner">
+                                <img src="assets/img/418cbee72cafbbf58290b71f9e359260.jpeg" class="w-100" alt="">
+                                <a href="">
+                                    <i class="fa-solid fa-share-nodes ctnr-8-icon" id="ctnr-8-share-icon"></i>
+                                </a>
+
+                                <div class="ctnr-8-icon-sec">
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook  ctnr-8-icon-2"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-twitter  ctnr-8-icon-2"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-instagram  ctnr-8-icon-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 ctnr-8-text-sec">
+                                <div class="row">
+                                    <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                                    <div class="col-lg-10 col-md-10 col-sm-10 col-10 ctnr-8-mainbox-2">
+                                        <div class="row">
+                                            <div class="col-lg-12 pt-5 pb-5 text-center ctnr-8-instructor-name">
+                                                <a href="">
+                                                    <p class="ctnr-8-text">Millar Richard</p>
+                                                </a>
+                                                <p class="ctnr-8-text-2">business</p>
+
+                                                <div class="col-lg-12 mb-3">
+                                                    <i class="fa-solid fa-user-plus ctnr-8-icon-3"></i>
+                                                    <span class="ctnr-8-text-3">2 courses</span>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <i class="fa-solid fa-calendar-days ctnr-8-icon-3"></i>
+                                                    <span class="ctnr-8-text-3">17 students</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="fade-up-right" data-aos-duration="1500"
+                    data-aos-delay="1000">
+                    <div class="col-lg-12 ctnr-8-mainbox">
+                        <div class="row">
+                            <div class="col-lg-12 ctnr-8-mainbox-inner">
+                                <img src="assets/img/a87cce35aa3a4cb374ad14c92334a35e.jpeg" class="w-100" alt="">
+                                <a href="">
+                                    <i class="fa-solid fa-share-nodes ctnr-8-icon" id="ctnr-8-share-icon"></i>
+                                </a>
+
+                                <div class="ctnr-8-icon-sec">
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook  ctnr-8-icon-2"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-twitter  ctnr-8-icon-2"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-instagram  ctnr-8-icon-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 ctnr-8-text-sec">
+                                <div class="row">
+                                    <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                                    <div class="col-lg-10 col-md-10 col-sm-10 col-10 ctnr-8-mainbox-2">
+                                        <div class="row">
+                                            <div class="col-lg-12 pt-5 pb-5 text-center ctnr-8-instructor-name">
+                                                <a href="">
+                                                    <p class="ctnr-8-text">Richard David</p>
+                                                </a>
+                                                <p class="ctnr-8-text-2">Marketing Expert</p>
+
+                                                <div class="col-lg-12 mb-3">
+                                                    <i class="fa-solid fa-user-plus ctnr-8-icon-3"></i>
+                                                    <span class="ctnr-8-text-3">2 courses</span>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <i class="fa-solid fa-calendar-days ctnr-8-icon-3"></i>
+                                                    <span class="ctnr-8-text-3">11 students</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="fade-up-right" data-aos-duration="1500"
+                    data-aos-delay="1500">
+                    <div class="col-lg-12 ctnr-8-mainbox">
+                        <div class="row">
+                            <div class="col-lg-12 ctnr-8-mainbox-inner">
+                                <img src="assets/img/84ce06432355d2548c4c2d534bb8873e.jpeg" class="w-100" alt="">
+                                <a href="">
+                                    <i class="fa-solid fa-share-nodes ctnr-8-icon" id="ctnr-8-share-icon"></i>
+                                </a>
+
+                                <div class="ctnr-8-icon-sec">
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook  ctnr-8-icon-2"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-twitter  ctnr-8-icon-2"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-instagram  ctnr-8-icon-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 ctnr-8-text-sec">
+                                <div class="row">
+                                    <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                                    <div class="col-lg-10 col-md-10 col-sm-10 col-10 ctnr-8-mainbox-2">
+                                        <div class="row">
+                                            <div class="col-lg-12 pt-5 pb-5 text-center ctnr-8-instructor-name">
+                                                <a href="">
+                                                    <p class="ctnr-8-text">Jacob Jones</p>
+                                                </a>
+                                                <p class="ctnr-8-text-2">UI / UX Design</p>
+
+                                                <div class="col-lg-12 mb-3">
+                                                    <i class="fa-solid fa-user-plus ctnr-8-icon-3"></i>
+                                                    <span class="ctnr-8-text-3">2 courses</span>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <i class="fa-solid fa-calendar-days ctnr-8-icon-3"></i>
+                                                    <span class="ctnr-8-text-3">8 students</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="fade-up-right" data-aos-duration="1500"
+                    data-aos-delay="2000">
+                    <div class="col-lg-12 ctnr-8-mainbox">
+                        <div class="row">
+                            <div class="col-lg-12 ctnr-8-mainbox-inner">
+                                <img src="assets/img/8d69d3fc4b9ecc16660fc9e32192e9e1.jpeg" class="w-100" alt="">
+                                <a href="">
+                                    <i class="fa-solid fa-share-nodes ctnr-8-icon" id="ctnr-8-share-icon"></i>
+                                </a>
+
+                                <div class="ctnr-8-icon-sec">
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook  ctnr-8-icon-2"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-twitter  ctnr-8-icon-2"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-instagram  ctnr-8-icon-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 ctnr-8-text-sec">
+                                <div class="row">
+                                    <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                                    <div class="col-lg-10 col-md-10 col-sm-10 col-10 ctnr-8-mainbox-2">
+                                        <div class="row">
+                                            <div class="col-lg-12 pt-5 pb-5 text-center ctnr-8-instructor-name">
+                                                <a href="">
+                                                    <p class="ctnr-8-text">Kristin Watson</p>
+                                                </a>
+                                                <p class="ctnr-8-text-2">UI / UX Design</p>
+
+                                                <div class="col-lg-12 mb-3">
+                                                    <i class="fa-solid fa-user-plus ctnr-8-icon-3"></i>
+                                                    <span class="ctnr-8-text-3">1 course</span>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <i class="fa-solid fa-calendar-days ctnr-8-icon-3"></i>
+                                                    <span class="ctnr-8-text-3">1 student</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--about container-4 code end -->
+
+
+
+
+
+    <!--about container-5 code start -->
+
+    <div class="container-fluid" style="padding: 10rem 0rem; background-color: #FAF9F6;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="ctnr-3-text text-center">OUR CLIENTS</p>
+                    <p class="ctnr-3-expr-text">What’s Our Real Client Strories About Our
+                        Work & Passion</p>
+                    <span id="ctnr-4-underline">
+                        <img src="assets/img/underline.svg" alt="">
+                    </span>
+                    <p class="ctnr-3-text text-center">When An Unknown Printer Took A Galley Of Type And Scrambled It To
+                        Make A Type Specimen <br>
+                        Book It Has Survived Not Only Five Centuries</p>
+                </div>
+            </div>
+
+            <div class="carousel slide" data-bs-ride="carousel" id="ab-carou">
+                <div class="carousel-indicators">
+                    <button data-bs-target="#ab-carou" data-bs-slide-to="0" class="active" style="background-color: #543EE8 !important;"></button>
+                    <button data-bs-target="#ab-carou" data-bs-slide-to="1" style="background-color: #543EE8 !important;"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row mt-5">
+                            <div class="col-6">
+                                <div class="col-12 ab-carou-mb text-center mt-5">
+                                    <div class="col-3 ab-carou-pic mx-auto">
+                                        <img src="assets/img/ab-pic.jpg" class="w-100" alt="">
+                                    </div>
+
+                                    <div class="col-5 ab-carou-icon-sec mt-5 mx-auto">
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                    </div>
+
+                                    <div class="col-12 mt-4">
+                                        <p class="ab-carou-text">When An Unknown Printer Took A Galley Of Type And Scrambled It To Make A Type Specimen Book It Has Survived Not Only Five Centuries</p>
+                                        <p class="ab-carou-text-2 mt-4 text-center">neel enothan</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="col-12 ab-carou-mb text-center mt-5">
+                                    <div class="col-3 ab-carou-pic mx-auto">
+                                        <img src="assets/img/ab-pic 2.jpg" class="w-100" alt="">
+                                    </div>
+
+                                    <div class="col-5 ab-carou-icon-sec mt-5 mx-auto">
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                    </div>
+
+                                    <div class="col-12 mt-4">
+                                        <p class="ab-carou-text">When An Unknown Printer Took A Galley Of Type And Scrambled It To Make A Type Specimen Book It Has Survived Not Only Five Centuries</p>
+                                        <p class="ab-carou-text-2 mt-4 text-center">mr .k jacker</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row mt-5">
+                            <div class="col-6">
+                                <div class="col-12 ab-carou-mb text-center mt-5">
+                                    <div class="col-3 ab-carou-pic mx-auto">
+                                        <img src="assets/img/ab-pic 3.jpg" class="w-100" alt="">
+                                    </div>
+
+                                    <div class="col-5 ab-carou-icon-sec mt-5 mx-auto">
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                    </div>
+
+                                    <div class="col-12 mt-4">
+                                        <p class="ab-carou-text">When An Unknown Printer Took A Galley Of Type And Scrambled It To Make A Type Specimen Book It Has Survived Not Only Five Centuries</p>
+                                        <p class="ab-carou-text-2 mt-4 text-center">richard whalen</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="col-12 ab-carou-mb text-center mt-5">
+                                    <div class="col-3 ab-carou-pic mx-auto">
+                                        <img src="assets/img/ab-pic 4.jpg" class="w-100" alt="">
+                                    </div>
+
+                                    <div class="col-5 ab-carou-icon-sec mt-5 mx-auto">
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                        <i class="fa-solid fa-star ab-carou-icon"></i>
+                                    </div>
+
+                                    <div class="col-12 mt-4">
+                                        <p class="ab-carou-text">When An Unknown Printer Took A Galley Of Type And Scrambled It To Make A Type Specimen Book It Has Survived Not Only Five Centuries</p>
+                                        <p class="ab-carou-text-2 mt-4 text-center">esther howard</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--about container-5 code end -->
+
+
+
+
+
+
+    <!--container-6 code start -->
+
+
+
+
+    <div class="container-fluid ctnr-12">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                    <div class="col-lg-12 ctnr-12-pic">
+                        <img src="assets/img/call-action-img1.png" class="ctnr-12-girl-pic" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-5" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="1500">
+                    <div class="col-lg-12">
+                        <p class="ctnr-12-text">Affordable Online Courses & Learning Opportunities For You</p>
+                    </div>
+                </div>
+                <div class="col-lg-3" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000">
+                    <div class="col-lg-12">
+                        <button class="ctnr-12-btn hvr-wobble-horizontal">
+                            start learning today&nbsp;&nbsp;
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--container-6 code end-->
+
+
+
+
+
+
+
+    <!--last container or footer's code start -->
+
+
+
+
+
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row ">
+                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 footer-text-sec">
+                    <div class="row">
+                        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+                            <div class="col-lg-12">
+                                <img src="assets/img/logo-light.svg" alt="">
+                            </div>
+
+                            <div class="col-lg-12 mt-5">
+                                <p class="footer-text">When An Unknown Printer Took Galley Of Type And Scrambled It To
+                                    Make Pspecimen Bookt Has.</p>
+                            </div>
+
+                            <div class="col-lg-12 mt-5">
+                                <i class="fa-solid fa-location-dot footer-icon"></i>
+                                <span class="footer-text">463 7th Ave, NY 10018, USA</span>
+                            </div>
+
+                            <div class="col-lg-12 mt-3">
+                                <i class="fa-solid fa-phone-volume footer-icon"></i>
+                                <span class="footer-text">+123-88-9900-456</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+                            <div class="row">
+                                <div class=" col-lg-12">
+                                    <p class="footer-text-4">Resources</p>
+
+                                    <a href="">
+                                        <p class="footer-text-3 mt-5">about</p>
+                                    </a>
+
+                                    <a href="">
+                                        <p class="footer-text-3 mt-4">contact</p>
+                                    </a>
+
+                                    <a href="">
+                                        <p class="footer-text-3 mt-4">refund</p>
+                                    </a>
+
+                                    <a href="">
+                                        <p class="footer-text-3 mt-4">help center</p>
+                                    </a>
+
+                                    <a href="">
+                                        <p class="footer-text-3 mt-4">returns policy</p>
+                                    </a>
+
+                                    <a href="">
+                                        <p class="footer-text-3 mt-4">terms condition</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12" id="">
+                    <div class="row footer-text-sec-2">
+
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p class="footer-text-2">courses</p>
+
+                                    <a href="">
+                                        <p class="footer-text-3 mt-5">life coach</p>
+                                    </a>
+
+                                    <a href="">
+                                        <p class="footer-text-3 mt-4">business coach</p>
+                                    </a>
+
+                                    <a href="">
+                                        <p class="footer-text-3 mt-4">health coach</p>
+                                    </a>
+
+                                    <a href="">
+                                        <p class="footer-text-3 mt-4">development</p>
+                                    </a>
+
+                                    <a href="">
+                                        <p class="footer-text-3 mt-4">web design</p>
+                                    </a>
+
+                                    <a href="">
+                                        <p class="footer-text-3 mt-4">Seo optimize</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+                            <p class="footer-text-2">Join Our Newsletter</p>
+
+                            <div class="col-lg-12 mt-5">
+                                <p class="footer-text">Nown Printer Took Galley Type And Scrambled It To Make Following
+                                    With Us</p>
+                            </div>
+
+                            <div class="col-lg-12 mt-5">
+                                <input type="email" class="footer-form" placeholder="Your Email Address">
+                                <button class="footer-form-btn">sign up</button>
+                            </div>
+
+                            <div class="col-lg-12 mt-5">
+                                <p class="footer-text">We Only Send Interesting And Relevant Emails.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <p class="author-name">Copyright All-rights reserved. This template is designed by Waasim Ansari
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!--last container or footer's code end -->
+
+</body>
+
+<script>
+    AOS.init();
+</script>
+
+</html>
